@@ -1,18 +1,14 @@
-def mad_libs():
-    verb = input("Enter a verb: ")
-    noun = input("Enter a noun: ")
-    pronoun = input("Enter a pronoun: ")
-    adjective = input("Enter an adjective: ")
+def calculate_sum(a, b):
+    """
+    Calculate the sum of two numbers.
 
-    story = (
-        f"On a {adjective} morning, {pronoun} {verb} to school with excitement. "
-        f"The {noun} in {pronoun}'s backpack feels heavy but full of potential adventures. "
-        f"At the school gate, {pronoun} waves goodbye to {pronoun} {adjective} parents, ready to face the day. "
-        f"In class, {pronoun} eagerly raises {pronoun} hand, eager to learn and explore."
-    )
+    :param a: The first number.
+    :param b: The second number.
+    :return: The sum of the two numbers.
+    """
+    return a + b
 
-    print(story)
+# Example usage:
+result = calculate_sum(5, 3)
+print("Result:", result)
 
-
-if _name_ == "_main_":
-    mad_libs()
